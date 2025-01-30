@@ -968,3 +968,19 @@ header.main-header .header-sticky.active{
 	height: 100%;
 	width: 100%;
 }
+
+@media only screen and (max-width: 767px){
+	.btn_primary,.btn_light{
+		padding: 12px 20px;
+		font-size: 14px;
+	}
+
+	.btn_primary_outline{
+		padding: 10px 20px;
+		font-size: 14px;
+	}
+
+	.bg_primary{
+		padding: 45px 20px;
+	}
+}
