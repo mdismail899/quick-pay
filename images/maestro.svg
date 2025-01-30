@@ -1,0 +1,46 @@
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 31" width="37px">
+      <defs>
+        <filter
+          id="svg-maestro-a"
+          width="104.4%"
+          height="105.3%"
+          x="-2.2%"
+          y="-2.7%"
+          filterUnits="objectBoundingBox">
+          <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+          <feGaussianBlur
+            in="shadowOffsetOuter1"
+            result="shadowBlurOuter1"
+            stdDeviation="2"
+          />
+          <feColorMatrix
+            in="shadowBlurOuter1"
+            result="shadowMatrixOuter1"
+            values="0 0 0 0 0.86131382 0 0 0 0 0.870479167 0 0 0 0 0.900754929 0 0 0 0.4 0"
+          />
+          <feMerge>
+            <feMergeNode in="shadowMatrixOuter1" />
+            <feMergeNode in="SourceGraphic" />
+          </feMerge>
+        </filter>
+      </defs>
+      <g
+        fill="none"
+        fillRule="evenodd"
+        filter="url(#svg-maestro-a)"
+        transform="translate(-136 -350)">
+        <path
+          fill="#0099DF"
+          d="M176.588 370.492v-.443h-.115l-.134.304-.133-.304h-.116v.443h.082v-.334l.125.288h.085l.125-.289v.335h.081zm-.733 0v-.367h.149v-.075h-.378v.075h.148v.367h.081z"
+        />
+        <path fill="#6C6BBD" d="M153.472 354.443h9.991v17.954h-9.991z" />
+        <path
+          fill="#EB001B"
+          d="M154.112 363.419a11.4 11.4 0 014.361-8.978 11.369 11.369 0 00-7.056-2.441c-6.306 0-11.417 5.112-11.417 11.419 0 6.306 5.111 11.418 11.417 11.418 2.663 0 5.114-.913 7.056-2.441a11.4 11.4 0 01-4.36-8.977"
+        />
+        <path
+          fill="#0099DF"
+          d="M176.936 363.419c0 6.306-5.111 11.418-11.417 11.418-2.663 0-5.114-.913-7.057-2.441a11.398 11.398 0 004.362-8.977c0-3.643-1.705-6.887-4.362-8.978A11.372 11.372 0 01165.52 352c6.306 0 11.417 5.112 11.417 11.419"
+        />
+      </g>
+    </svg>
