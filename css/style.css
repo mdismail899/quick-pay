@@ -807,7 +807,7 @@ header.main-header .header-sticky.active{
 
 .main-footer{
 	/* background: linear-gradient(170deg, rgba(9,9,121,1) 20%, rgba(116,42,81,1) 97%);border-radius: 50px; */
-	background-color: #0E0D1B;
+	background-color: #000000;
 	padding: 100px 0 0;
 	border-bottom-right-radius: 0 ;
 	border-bottom-left-radius: 0;
